@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Nunito+Sans:wght@300&display=swap");
+
+::selection {
+  background-color: #f50029;
+  color: aliceblue;
+}
+
+#navbar-brand {
+  font-weight: 300;
+  font-family: "Carter One", cursive;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.image-border {
+  border-radius: 20px 4px 20px 4px;
+  transition: 0.6s;
+}
+
+.image-border:hover {
+  border-radius: 4px 20px 4px 20px;
+}
+
+.section-gap {
+  padding: 60px 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.disp-txt {
+  font-weight: 320;
+  font-size: 1.2rem;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1rem;
+}
+
+a {
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #f50029 !important;
+}
+
+.btn {
+  transition: 0.4s;
+}
+
+img {
+  margin: 1rem 0;
+}
+
+#first-section {
+  padding-top: 1rem !important;
+}
+
+.social-icon {
+  color: #333;
+  transition: 0.4s;
+}
+
+.social-icon:hover {
+  color: #f50029 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #be0020;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+  background: #f50029;
+}
+
+footer a{
+    color: #eaeaea;
+}
+
+.bg-alt{
+    background-color: #f0f0f0 !important;
+}
